@@ -1,0 +1,110 @@
+const BranchesData = {
+  headOffice: {
+    branchName: "Head Office",
+    country: "Saudi Arabia",
+    city: "Riyadh",
+    address: "Rosais Building, Al Murabba, Riyadh - 12628, Saudi Arabia",
+    phone: "+966 530 709 823",
+    whatsapp: "+966 530 709 823",
+    fax: "+966 11 1234567",
+    email: "info@nahdas.com",
+    services: [
+      "Facility & Maintenance Services", 
+      "Trading & Supply Services", 
+      "Construction Services", 
+      "IT Technology Services", 
+      "Infrastructure Services",
+      "Man Power Supply"
+    ],
+    languagesSpoken: ["English", "Hindi", "Telugu"],
+    socialMedia: {
+      facebook: "https://www.facebook.com/nahdas",
+      twitter: "https://x.com/nahdas",
+      linkedin: "https://www.linkedin.com/in/nahdas-90429438b/",
+      instagram: "https://www.instagram.com/nahdas/",
+    },
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55176.97291295484!2d46.65472006462932!3d24.711854910669256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f05c77a325f3f%3A0x2e1c8dda368ca658!2sRossais%20Residential%20Complex-Building%203!5e1!3m2!1sen!2sin!4v1774389876860!5m2!1sen!2sin",
+    workingHours: {
+      mondayToFriday: "9:00 AM - 5:00 PM",
+      saturday: "9:00 AM - 5:00 PM",
+      sunday: "Closed",
+    },
+  },
+
+  indiaBranch: {
+    branchName: "India Branch",
+    country: "India",
+    city: "Hyderabad",
+    address: "Salarjung Colony, Rethibowli, Hyderabad, Telangana - 500008",
+    phone: "+91 9989732288",
+    whatsapp: "+91 9989732288",
+    fax: "+91 40 87654321",
+    email: "info@nahdas.com",
+    services: ["Facility & Maintenance Services", "Business Development", "Customer Support", "Sales", "Logistics"],
+    languagesSpoken: ["English", "Hindi", "Telugu"],
+    socialMedia: {
+      facebook: "https://www.facebook.com/nahdas",
+      twitter: "https://x.com/nahdas",
+      linkedin: "https://www.linkedin.com/in/nahdas-90429438b/",
+      instagram: "https://www.instagram.com/nahdas/",
+    },
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3658.6267201701066!2d78.4225833!3d17.394916699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDIzJzQxLjciTiA3OMKwMjUnMjEuMyJF!5e1!3m2!1sen!2sin!4v1760822586225!5m2!1sen!2sin",
+    workingHours: {
+      mondayToFriday: "9:00 AM - 5:00 PM",
+      saturday: "9:00 AM - 5:00 PM",
+      sunday: "Closed",
+    },
+  },
+
+  riyadhBranch: {
+    branchName: "Riyadh Branch",
+    country: "SAUDI ARABIA",
+    city: "Riyadh",
+    address: "Prince Abdulaziz Ibn Musaid Ibn Jalawi St, Al Murabba, Riyadh 12612, Saudi Arabia",
+    phone: "+966 530709823",
+    whatsapp: "+966 530709823",
+    fax: "+966 11 1234567",
+    email: "info@nahdas.com",
+    services: ["Facility & Maintenance Services", "Business Development", "Customer Support", "Sales", "Logistics"],
+    languagesSpoken: ["Arabic", "English"],
+    socialMedia: {
+      facebook: "https://www.facebook.com/nahdas",
+      twitter: "https://twitter.com/nahdas",
+      linkedin: "https://www.linkedin.com/company/nahdas-enterprises",
+      instagram: "https://www.instagram.com/nahdas/",
+    },
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.853938465855!2d46.7030603!3d24.676226900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0453f2473895%3A0xefd1c10ee4ae1720!2sPrince%20Abdulaziz%20Ibn%20Musaid%20Ibn%20Jalawi%20St%2C%20Riyadh%20Saudi%20Arabia!5e1!3m2!1sen!2sin!4v1760822671400!5m2!1sen!2sin",
+    workingHours: {
+      sundayToThursday: "8:00 AM - 5:00 PM",
+      friday: "Closed",
+      saturday: "Closed",
+    },
+  },
+
+  dammamBranch: {
+    branchName: "Dammam Branch",
+    country: "SAUDI ARABIA",
+    city: "Dammam",
+    address: "King Abdulaziz Street, Dammam, Saudi Arabia",
+    phone: "+966 548322583",
+    whatsapp: "+966 548322583",
+    fax: "+966 13 7654321",
+    email: "info@nahdas.com",
+    services: ["Facility & Maintenance Services", "Business Development", "Customer Support", "Sales", "Logistics"],
+    languagesSpoken: ["Arabic", "English"],
+    socialMedia: {
+      facebook: "https://www.facebook.com/nahdas",
+      twitter: "https://twitter.com/nahdas",
+      linkedin: "https://www.linkedin.com/company/nahdas-enterprises",
+      instagram: "https://www.instagram.com/nahdas/",
+    },
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3435.3895514537844!2d49.9608333!3d26.3575833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDIxJzI3LjMiTiA0OcKwNTcnMzkuMCJF!5e1!3m2!1sen!2sin!4v1760822747752!5m2!1sen!2sin",
+    workingHours: {
+      sundayToThursday: "8:00 AM - 5:00 PM",
+      friday: "Closed",
+      saturday: "Closed",
+    },
+  },
+};
+
+export default BranchesData;
