@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Hero from "../Components/Hero";
-import { projects } from "../Components/Data";
+import { projects } from "../Components/Projects";
 import { useNavigate } from "react-router-dom";
 import fiximg1 from "../assets/Images/projects/fiximg1.jpg";
 import herobg from "../assets/Images/projects/herobg.jpg";
